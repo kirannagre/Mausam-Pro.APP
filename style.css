@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+
+
+.body{
+    background: #222;
+}
+ .SEACRCH img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40px;
+}
+
+.SEACRCH input{
+      border: 0;
+      outline: 0;
+      background-color: #ebfffc;
+      color: #555;
+      height: 60px;
+      padding: 10px 25px;
+      border-radius: 30px;
+      flex:1;
+      margin-right: 25px; 
+      font-size: 18px;
+}
+
+.CARD{
+    width: 90%;
+    max-width: 500px;
+    background: linear-gradient(135deg, #00feba ,#5b548a);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+
+}
+.SEACRCH{
+    width: 100%;
+    display: flex;
+    align-items: centerj;
+    justify-content: space-between;
+}
+
+.SEACRCH button{
+     border: 0;
+      outline: 0;
+      background-color: #ebfffc;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      cursor: pointer;
+}
+.SEACRCH button img {
+    width:  40px;
+    margin-left: 12px;
+}
+
+.Weather
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+/* .Weather img{
+
+    width: 100px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    justify-content: space-between; */
+
+
+.Weather-icon{
+    width:150px;
+    margin-top: 30px;
+  
+}
+
+
+
+.Weather h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.Weather h2{
+    font-size: 50px;
+    font-weight: 500px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 70px;
+}
+
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.humidity, .Wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
